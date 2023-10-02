@@ -1,0 +1,25 @@
+'''
+Exercícios
+
+1) Mude a cor da linha
+2) Mude o formato da tartaruga
+3) Mude o tamanho do quadrado
+
+'''
+
+#MUDANÇAS
+
+import turtle
+
+turtle = turtle.Turtle()
+turtle.shape('square')
+
+turtle.color('violet')
+
+turtle.forward(250)
+turtle.left(90)
+turtle.forward(250)
+turtle.left(90)
+turtle.forward(250)
+turtle.left(90)
+turtle.forward(250)
