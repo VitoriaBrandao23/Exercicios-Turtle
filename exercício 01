@@ -5,7 +5,6 @@ coisa que as atuais
 2) Faça a tartaruga virar para a direita
 3) Altere o comprimento dos lados do quadrado
 4) Transforme o quadrado em um retângulo
-
 '''
 
 import turtle
@@ -14,7 +13,7 @@ turtle = turtle.Turtle()
 turtle.shape('turtle')
 
 for _ in range(2):
-    turtle.forward(150)
+    turtle.forward(150)  #de 100 para 150
     turtle.right(90)
-    turtle.forward(50)
+    turtle.forward(50)   #de 100 para 50
     turtle.right(90)
