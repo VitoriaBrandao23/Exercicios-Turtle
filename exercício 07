@@ -11,13 +11,13 @@ turtle = turtle.Turtle()
 turtle.color('green')
 
 for _ in range(4):
-    turtle.left(90)
-    turtle.backward(130)
+  turtle.left(90)
+  turtle.backward(150)  #de 100 paar 150
 
-turtle.backward(50)
-turtle.backward(200)
+turtle.backward(50) 
+turtle.backward(200)    #de 100 para 200
 turtle.right(90)
 
 for _ in range(3):
-  turtle.forward(150)
+  turtle.forward(150)   #de 100 para 150
   turtle.left(90)
