@@ -11,11 +11,18 @@ import turtle
 
 turtle = turtle.Turtle()
 
+def distancia(x, y):
+    turtle.penup()
+    turtle.setpos(x, y)
+    turtle.pendown()
+
 for _ in range(4):
     turtle.shape('classic')
     turtle.color('green')
     turtle.forward(100)
     turtle.right(90)
+
+distancia(-15, 15)
 
 for _ in range(4):
     turtle.shape('turtle')
@@ -23,11 +30,15 @@ for _ in range(4):
     turtle.left(90)
     turtle.forward(100)
 
+distancia(5, 15)
+
 for _ in range(4):
     turtle.shape('triangle')
     turtle.color('blue')
     turtle.forward(100)
     turtle.left(90)
+
+distancia(-10, -5)
 
 for _ in range(4):
     turtle.shape('circle')
