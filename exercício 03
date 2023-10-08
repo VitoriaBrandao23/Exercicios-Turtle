@@ -11,7 +11,7 @@ import turtle
 
 turtle = turtle.Turtle()
 turtle.shape('circle')
-turtle.pensize(10)
+turtle.pensize(10)      #de 5 para 10
 
 def square_colorfull():
     turtle.color(color)
