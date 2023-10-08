@@ -7,8 +7,6 @@ Exercícios
 
 '''
 
-#MUDANÇAS
-
 import turtle
 
 turtle = turtle.Turtle()
