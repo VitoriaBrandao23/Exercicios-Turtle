@@ -14,10 +14,11 @@ turtle.color('red')
 
 for _ in [1, 2, 3]:
     turtle.shape('turtle')
-    turtle.forward(200)
+    turtle.forward(200)      #de 100 para 220 e depois para 200
     turtle.right(120)
 
-for _ in [1, 2, 3, 4]:
+for _ in [1, 2, 3, 4]:   
     turtle.shape('square')
-    turtle.forward(250)
+    turtle.color('green')
+    turtle.forward(220)     #de 100 para 220
     turtle.right(90)
